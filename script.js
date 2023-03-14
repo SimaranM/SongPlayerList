@@ -9,16 +9,18 @@ let gif = document.getElementById('gif');
 let songItem = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
-    { songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
-    { songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-    { songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
-    { songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
-    { songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg" },
-    { songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg" },
-    { songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg" },
-    { songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg" },
-    { songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg" },
+    { songName: "Na Na karte Pyar", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
+    { songName: "Tuje Dekha to yeh jana sanam", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
+    { songName: "Teri meri gallan hogi mashhur", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
+    { songName: "It's the Time to Disco ", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
+    { songName: "chal chaiya chaiya", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
+    { songName: "Maahi Ve", filePath: "songs/6.mp3", coverPath: "covers/6.jpg" },
+    { songName: "Say Shava shava", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
+    { songName: "Rock N Roll Soniye ", filePath: "songs/8.mp3", coverPath: "covers/8.jpg" },
+    { songName: "bum bum bole masti mein dole", filePath: "songs/9.mp3", coverPath: "covers/9.jpg" },
+    { songName: "Pardeshiya ye such hai piya", filePath: "songs/10.mp3", coverPath: "covers/10.jpg" },
+    { songName: "Tere Mere hothon pe", filePath: "songs/11.mp3", coverPath: "covers/1.jpg" },
+    
 ]
 songItem.forEach((element, i) => {
     // console.log(element, i)
